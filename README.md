@@ -1,11 +1,33 @@
-# Attendance_Tracker-
-CIT GROUP 12 PROJECT: Virtual Attendance Tracker
+# Attendance_Tracker 
+CIT Cohort 2021, GROUP 12 PROJECT: Virtual Attendance Tracker
 
-The code is designed to track Virtual event attendance using secret codes
-Allows registered user to input a 4-characer code which is then verified to assess its existence in the database os records
-If existent, associated name is appended to a date-column attendance list of that day
-If non-existent, exception is raised, and user is prompted to enter detail as a new entrant after which he/she is given a random four digit code to join meeting
-Stored record can be retrieved in desired file format suitable for analysis as desired.
+## Description:
+The project is designed to track Virtual event attendance using registration numbers
 
-NOTE: Entailed modules include Tkinter_Interface.py and Button_Actions.py
-      Run module: Tkinter_interface.py
+The Admin is able to login, add students and view attendance.
+
+Only the admin is able to add student details. Upon adding a student, their registration number is generated automatically.
+
+All registered students are verified using their email addresses. The verification allows them to know their registration numbers which they will be using for recording their attendance.
+
+Verified students record their attendance using the registration numbers. If existent, student details, date and time of attendance registration are added to the excel(CSV file).
+
+If non-existent, exception is raised, and user is requested to verify their existence inorder to know their registration numbers.
+
+On the admin dashboard, the day's attendance is displayed in a table.
+
+## Requirements:
+- Python3
+- Tkinter
+- SQLite
+- CSV
+
+## How to run:
+1. Clone this repo.
+2. Open the folder using your IDE or editor (PyCharm or VS Code)
+3. Run _main.py_ or Type `python main.py` in the terminal
+
+## Future Work:
+1. Using face recognition instead of registration numbers.
+2. Allow admin to view attendance of any day and also filtering by course
+3. Allow admin to view and edit student details
