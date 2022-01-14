@@ -1,7 +1,7 @@
 # Attendance_Tracker 
 CIT Cohort 2021, GROUP 12 PROJECT: Virtual Attendance Tracker
 
-# Description:
+## Description:
 The project is designed to track Virtual event attendance using registration numbers
 
 The Admin is able to login, add students and view attendance.
@@ -16,16 +16,18 @@ If non-existent, exception is raised, and user is requested to verify their exis
 
 On the admin dashboard, the day's attendance is displayed in a table.
 
-# Requirements:
+## Requirements:
 - Python3
 - Tkinter
+- SQLite
+- CSV
 
-# How to run:
+## How to run:
 1. Clone this repo.
 2. Open the folder using your IDE or editor (PyCharm or VS Code)
 3. Run _main.py_ or Type `python main.py` in the terminal
 
-# Future Work:
+## Future Work:
 1. Using face recognition instead of registration numbers.
 2. Allow admin to view attendance of any day and also filtering by course
 3. Allow admin to view and edit student details
