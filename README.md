@@ -2,7 +2,7 @@
 CIT Cohort 2021, GROUP 12 PROJECT: Virtual Attendance Tracker
 
 ## Description:
-The project is designed to track Virtual event attendance using registration numbers
+The project is designed to track Virtual attendance using registration numbers
 
 The Admin is able to login, add students and view attendance.
 
