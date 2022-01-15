@@ -5,6 +5,9 @@ CIT Cohort 2021, GROUP 12 PROJECT: Virtual Attendance Tracker
 The project is designed to track Virtual attendance using registration numbers
 
 The Admin is able to login, add students and view attendance.
+### Admin login credentials:
+- Username: Admin
+- Password: admin1
 
 Only the admin is able to add student details. Upon adding a student, their registration number is generated automatically.
 
